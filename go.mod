@@ -1,1 +1,1 @@
-module github.com/atotto/clipboard
+module github.com/0magnet/clipboard
