@@ -8,10 +8,10 @@
 > and a wasm module has one thread, so awaiting it deadlocks the page. The
 > host primes the value from its own paste handler instead.
 >
-> The module path is `github.com/0magnet/clipboard` so it can be a `replace`
-> target.
+> The module path is `github.com/0magnet/clipboard`, so consumers import the
+> fork by its own path.
 
-[![Build Status](https://travis-ci.com/atotto/clipboard.svg?branch=master)](https://travis-ci.com/atotto/clipboard)
+[![test](https://github.com/atotto/clipboard/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/atotto/clipboard/actions/workflows/test.yml)
 
 [![GoDoc](https://godoc.org/github.com/atotto/clipboard?status.svg)](http://godoc.org/github.com/atotto/clipboard)
 
